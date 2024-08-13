@@ -1,52 +1,179 @@
-.navbar-brand{
+.navbar-brand {
 
     font-size: 35px;
     font-family: "Nunito", sans-serif;
     color: #06BBCC;
     font-weight: 700;
 }
-.collapse{
-margin-left: 20%;
+
+.collapse {
+    margin-left: 20%;
 }
-.nav-item{
-margin-left: 10%;
+
+.nav-item {
+    margin-left: 10%;
 
 }
-.nav-link{
+
+.nav-link {
     font-size: 18px;
     font-family: "Heebo", sans-serif;
-    color: rgb(2, 2, 40)}
-.dropdown-menu{
+    color: rgb(2, 2, 40)
+}
+
+.dropdown-menu {
     background-color: black;
 }
-.nav-link :hover{
+
+.nav-link :hover {
     color: #06BBCC;
 
 }
 
-.btn{
-    
-   width: 300px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   padding-right: 50px;
-   padding-left: 50px;
+
+.btn {
+
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: -1%;
     margin-bottom: 0%;
     font-size: large;
-    background-color:#06BBCC;
+    background-color: #06BBCC;
     border: none;
     border-radius: 0%;
     font-weight: bolder;
 
 }
-.navbar-brand:hover
-{ color: #06BBCC;
-}
-.nav-link:hover{
+
+.navbar-brand:hover {
     color: #06BBCC;
 }
-.btn:hover{
-   background-color: rgb(2, 2, 40);
+
+.nav-link:hover {
+    color: #06BBCC;
 }
+
+.btn:hover {
+    background-color: rgb(2, 2, 40);
+}
+
+.d-block {
+    width: 75%;
+    height: 600px;
+
+
+}
+
+.ww {
+    width: 75%;
+    height: 600px;
+}
+
+.carousel-item {
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+
+}
+
+.dropdown-menu {
+    background-color: white;
+
+}
+
+.dropdown-item:hover {
+    color: #06BBCC;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.a{
+    color: #06BBCC;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+}
+.b{
+    color: #02474d;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    font-size: 50px
+}
+.c{color: #02292d;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    padding-right: 100px;
+    
+
+}
+.d{
+    color:  #02474d;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    font-size: 40px
+}
+.text2{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.yy{
+    display: flex;
+    
+}
+.card-img-top{
+    text-align: center;
+    margin-left: -2%;
+    margin-bottom: 5%;
+    
+}
+
+
+.bi{
+    color: #06BBCC;
+}
+.card:hover .bi{
+    color: white;
+
+}
+.bi:hover{
+    color: white;
+}
+.card{
+    margin-left: 3%;
+    margin-right: 2%;
+    transition: transform 0.3s ease-in-out;
+  
+   
+   
+}
+
+
+
+.card:hover{
+    background-color: #06BBCC;
+    color: white;
+    transform: translateY(-10px);
+}
+
+
+.card-text{
+    text-align: center;
+}
+
+.uu{
+    text-align: center;
+}
+
 
