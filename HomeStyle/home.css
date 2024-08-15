@@ -18,7 +18,7 @@
 .nav-link {
     font-size: 18px;
     font-family: "Heebo", sans-serif;
-    color: rgb(2, 2, 40)
+    color: rgb(2, 2, 40);
 }
 
 .dropdown-menu {
@@ -29,7 +29,6 @@
     color: #06BBCC;
 
 }
-
 
 .btn {
 
@@ -94,33 +93,39 @@
     left: 20%;
     transform: translate(-50%, -50%);
     color: white;
-    
+
 }
-.a{
+
+.a {
     color: #06BBCC;
     font-family: "Nunito", sans-serif;
     font-weight: bolder;
 }
-.b{
+
+.b {
     color: #02474d;
     font-family: "Nunito", sans-serif;
     font-weight: bolder;
     font-size: 50px
 }
-.c{color: #02292d;
+
+.c {
+    color: #02292d;
     font-family: "Nunito", sans-serif;
     font-size: 20px;
     padding-right: 100px;
-    
+
 
 }
-.d{
-    color:  #02474d;
+
+.d {
+    color: #02474d;
     font-family: "Nunito", sans-serif;
     font-weight: bolder;
     font-size: 40px
 }
-.text2{
+
+.text2 {
     position: absolute;
     top: 40%;
     left: 5%;
@@ -128,52 +133,189 @@
     color: white;
 
 }
-.yy{
+
+.yy {
     display: flex;
-    
+
 }
-.card-img-top{
+
+.card-img-top {
     text-align: center;
     margin-left: -2%;
     margin-bottom: 5%;
+
+}
+
+
+.bi {
+    color: #06BBCC;
+}
+
+.card:hover .bi {
+    color: white;
+
+}
+
+.bi:hover {
+    color: white;
+}
+
+.card {
+    margin-left: 3%;
+    margin-right: 2%;
+    transition: transform 0.3s ease-in-out;
     
 }
 
 
-.bi{
-    color: #06BBCC;
-}
-.card:hover .bi{
-    color: white;
 
-}
-.bi:hover{
-    color: white;
-}
-.card{
-    margin-left: 3%;
-    margin-right: 2%;
-    transition: transform 0.3s ease-in-out;
-  
-   
-   
-}
-
-
-
-.card:hover{
+.card:hover {
     background-color: #06BBCC;
     color: white;
     transform: translateY(-10px);
 }
 
-
-.card-text{
-    text-align: center;
+.card:hover .card-text {
+    color: white;
 }
 
-.uu{
-    text-align: center;
+.card:hover .uu {
+    color: white;
 }
 
 
+.card-text {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #181d38;
+}
+
+.uu {
+    text-align: center;
+    font-family: "Nunito", san serif;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: #181d38;
+}
+
+.ii {
+    display: flex;
+    justify-content: space-between;
+}
+
+.au {
+    width: 600px;
+    height: 500px;
+    padding-left: 10%;
+
+}
+
+.au1 {
+    padding-right: 5%;
+    text-align: justify;
+    color: #181d38;
+    font-family:sans-serif;
+    padding-left: 6%;
+
+}
+
+.he {
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.aaa {
+
+    font-family:'Courier New', Courier, monospace;
+    color: #06BBCC;
+    font-weight:bolder;
+    text-align: center;
+    
+}
+.k{
+    display: flex;
+    justify-content: space-around;
+}
+.kkk{
+    width: 650px;
+    height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0a0909;
+}
+.kk{
+    transition: transform 0.3s ease-in-out;
+}
+.kkk:hover{
+    color: #181d38;
+    transform:scale(1.1);  
+    transition: transform 0.5s ease-in-out;
+}
+
+.kkkk:hover{
+    color: #ffffff;
+    background-color: #06BBCC;
+
+}
+
+.kkkk{
+    transform: translate(4%, -110%);
+    width: 250px;
+    color: aliceblue;
+    background-color: #0c0d0d5c;
+   
+}
+
+.kkkkk{
+    color: aliceblue;
+    margin-left: 4%;
+    text-decoration: none
+}
+.kkkkkk{
+    color: aliceblue;
+    margin-left: 4%;
+    text-decoration: none;
+}
+.eee{
+    text-decoration: none;
+}
+.card-img-topa{
+
+    height: 300px;
+    width: 350px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 3%;
+
+}
+
+.card-titlea{
+    text-align: center;
+}
+.card-texta{
+    text-align: center;
+}
+.icoo{
+    background-color: #ffffff;
+    width: 101px;
+    justify-content: space-evenly;
+    margin-left: 1px;
+    transform: translate(90%, -130%);
+    padding-left: 1px;
+    padding-right: 1px;
+
+
+}
+
+.bii{
+    color: #06BBCC;
+}
+    
+.card{
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-color: #aaa9a9;
+    
+}

@@ -1,0 +1,100 @@
+.navbar-brand {
+
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+    color: #06BBCC;
+    font-weight: 700;
+}
+
+.collapse {
+    margin-left: 20%;
+}
+
+.nav-item {
+    margin-left: 18%;
+    margin-right: -5%;
+
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: "Heebo", sans-serif;
+    color: rgb(2, 2, 40);
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.nav-link :hover {
+    color: #06BBCC;
+
+}
+
+
+
+.navbar-brand:hover {
+    color: #06BBCC;
+}
+
+.nav-link:hover {
+    color: #06BBCC;
+}
+
+.btno:hover {
+    background-color: rgb(2, 2, 40);
+    color: white;
+}
+.btno{
+
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: -1%;
+    margin-bottom: 0%;
+    font-size: large;
+    background-color: #06BBCC;
+    color: aliceblue;
+    border: none;
+    border-radius: 0%;
+    font-weight: bolder;
+
+}
+.ror{
+    
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%
+}
+.dropdown-menu {
+    background-color: white;
+
+}
+
+.dropdown-item:hover {
+    color: #06BBCC;
+}
+
+.btn{
+    background-color: #06BBCC;
+    color: aliceblue;
+    border-color: #06BBCC;
+
+}
+
+.btn:hover {
+    background-color: rgb(2, 2, 40);
+    border-color:  rgb(2, 2, 40);
+    color: white;}
+
+.card:hover {
+    
+        transform:scale(1.1);
+        transition: transform 0.5s ease-in-out;}
+.fs-5{
+    text-align: justify;
+    padding-left: 12%;
+    padding-right: 10%;
+}
